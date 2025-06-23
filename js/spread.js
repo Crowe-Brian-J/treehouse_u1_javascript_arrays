@@ -13,3 +13,8 @@ brass.push('flugelhorn')
 
 console.log(burger)
 console.log(instruments)
+
+const numbers = [10, 20, 30, 40]
+console.log(Math.max(numbers)) //returns NaN because numbers is an array
+console.log(Math.max(...numbers)) //returns 40 because spread
+console.log(Math.min(...numbers)) //returns 10    ''    ''
