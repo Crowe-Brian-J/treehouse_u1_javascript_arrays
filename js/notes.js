@@ -20,5 +20,15 @@
     - returns index of value specifed inside parenthesis
       -- If not in array, returns -1
   
-  *
+---Multidimensional Arrays| index 0 | index 1 | index 2 | index3
+  * Student Test Scores:  | Quiz 1  | Quiz 2  | Quiz 3  | Quiz 4
+    index 0 | Student 1   | 80      | 90      | 100     | 95           
+    index 1 | Student 2   | 75      | 95      | 85      | 100           
+    index 2 | Student 3   | 60      | 70      | 77      | 90    
+    
+  * Represented in Multidimensional Array:
+    - let scores = [[80, 90 , 100, 95], [75, 95, 85, 100], [60, 70, 77, 90]]
+
+  * To get to Student 1's latest quiz grade access as "scores[0][3]" Where 0 is the first array element and 3 is the first array's last element
+  * To get to Student 3's first quiz grade it is then accessed as "scores[2][0]"
 */
